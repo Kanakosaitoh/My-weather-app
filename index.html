@@ -4,15 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
-    <style src="src/style.css"></style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Vinyl&family=Sixtyfour&display=swap"
+      rel="stylesheet"
+    />
     <title>my-weather-app</title>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="weather-app">
       <header>
         <form>
-          <input type="text" placeholder="Enter a city..." autofocus />
-          <input type="submit" value="Search" />
+          <input
+            type="search"
+            class="text-input"
+            placeholder="Enter a city..."
+            autofocus
+          />
+          <input type="submit" class="submit-input" value="Search" />
         </form>
       </header>
       <main>
@@ -34,6 +45,6 @@
         Netlify.
       </footer>
     </div>
-    <script src="src/style.css"></script>
+    <script src="src/style.js"></script>
   </body>
 </html>
