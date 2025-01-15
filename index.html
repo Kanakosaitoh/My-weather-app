@@ -16,34 +16,51 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
+        <form id="search-form">
           <input
             type="search"
             class="text-input"
+            id="search-input"
             placeholder="Enter a city..."
             autofocus
           />
-          <input type="submit" class="submit-input" value="Search" />
+          <input
+            type="submit"
+            class="submit-input"
+            id="submit-element"
+            value="Search"
+          />
         </form>
       </header>
       <main>
         <div class="current-weather">
           <div>
-            <h1 class="current-city"><strong>Vancouver</strong></h1>
+            <h1 class="current-city" id="current-city">
+              <strong>Vancouver</strong>
+            </h1>
             <p class="current-details">
-              <span class="current-day">Tuesday</span>
-              <span class="current-hour">11</span>:
+              <span class="current-day" id="current-day">Tuesday</span>
+              <span class="current-hour" id="current-hour">11</span>:
               <span class="current-minutes">47</span>,
-              <span class="current-sky">clear sky</span><br />
+              <span class="current-sky" id="current-sky">clear sky</span><br />
               Humidity:
-              <span class="current-humidity">60%</span>, Wind:
-              <span class="current-wind">90m/h</span>
+              <span class="current-humidity" id="current-humidity">60%</span>,
+              Wind:
+              <span class="current-wind" id="current-wind">90m/h</span>
             </p>
           </div>
-          <div class="current-temperature">
-            <span class="current-temprature-icon">🌥️</span>
-            <span class="current-temperature-value"><strong>5</strong></span>
-            <span class="current-temperature-unit">℃</span>
+          <div class="current-temperature" id="current-temperature">
+            <span class="current-temprature-icon" id="current-temperature-icon"
+              >🌥️</span
+            >
+            <span
+              class="current-temperature-value"
+              id="current-temperature-value"
+              ><strong>5</strong></span
+            >
+            <span class="current-temperature-unit" id="current-temperature-unit"
+              >℃</span
+            >
           </div>
         </div>
       </main>
@@ -56,6 +73,6 @@
         >.
       </footer>
     </div>
-    <script src="src/style.js"></script>
+    <script src="src/script.js"></script>
   </body>
 </html>
