@@ -70,6 +70,7 @@ main {
 .current-temprature-icon {
   font-size: 90px;
   position: relative;
+  line-height: 20px;
 }
 .current-temperature-value {
   font-size: 88px;
@@ -85,9 +86,10 @@ main {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .weather-forecast {
-  margin: 20px;
+  margin: 30px;
   display: flex;
   justify-content: space-between;
+  font-size: 16px;
 }
 .weather-forecast-date {
   text-align: center;
