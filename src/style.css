@@ -96,6 +96,7 @@ main {
 }
 .weather-forecast-day {
   color: #666666;
+  margin-bottom: 10px;
 }
 .weather-forecast-icon {
   font-size: 44px;
@@ -104,6 +105,8 @@ main {
   display: flex;
   justify-content: space-between;
   color: rgb(255, 0, 157);
+  margin-top: 10px;
+  text-align: center;
 }
 footer {
   font-size: 14px;
