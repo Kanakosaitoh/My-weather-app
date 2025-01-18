@@ -84,6 +84,25 @@ main {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+.weather-forecast {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.weather-forecast-date {
+  text-align: center;
+}
+.weather-forecast-day {
+  color: #666666;
+}
+.weather-forecast-icon {
+  font-size: 44px;
+}
+.weather-forecast-temperatures {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 0, 157);
+}
 footer {
   font-size: 14px;
   text-align: center;
