@@ -91,7 +91,15 @@ function displayForecast(response) {
 
 function formatDate(timestamp) {
   let date = new Date(timestamp * 1000);
-  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  let days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
   return days[date.getDay()];
 }
 searchCity("Tokyo");
